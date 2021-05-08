@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+        <remote  name="dlwlrma123"
+                fetch="https://github.com/dlwlrma123" />
+
+        <project path="device/xiaomi/juice" name="device_xiaomi_juice" remote="dlwlrma123" revision="descendant-R" clone-depth="1" />
+        <project path="vendor/xiaomi/juice" name="vendor_xiaomi_juice" remote="dlwlrma123" revision="11" clone-depth="1" />
+</manifest>
