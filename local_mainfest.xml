@@ -3,12 +3,9 @@
 
         <remote  name="dlwlrma123"
                 fetch="https://github.com/dlwlrma123" />
-        <remote  name="LineageOS"
-                fetch="https://github.com/LineageOS" />
 
         <project path="device/xiaomi/surya" name="device_xiaomi_surya" remote="dlwlrma123" revision="main" clone-depth="1" />
         <project path="vendor/xiaomi/surya" name="vendor_xiaomi_surya" remote="dlwlrma123" revision="main" clone-depth="1" />
         <project path="kernel/xiaomi/surya" name="Optimus_Drunk_Surya" remote="dlwlrma123" revision="test" clone-depth="1" />
-        <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="LineageOS" revision="lineage-18.1" clone-depth="1" />
 
 </manifest>
