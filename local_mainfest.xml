@@ -4,8 +4,15 @@
         <remote  name="dlwlrma123"
                 fetch="https://github.com/dlwlrma123" />
 
+        <remote  name="wip"
+           fetch="https://github.com/Nusantara-ROM/" />
+        
         <project path="device/xiaomi/surya" name="device_xiaomi_surya" remote="dlwlrma123" revision="main" clone-depth="1" />
         <project path="vendor/xiaomi/surya" name="vendor_xiaomi_surya" remote="dlwlrma123" revision="main" clone-depth="1" />
         <project path="kernel/xiaomi/surya" name="Optimus_Drunk_Surya" remote="dlwlrma123" revision="test" clone-depth="1" />
+        <project path="frameworks/base" name="frameworks_base_test" remote="dlwlrma123" revision="r" clone-depth="1" />
+        <project path="vendor/wave" name="vendor_wave_test" remote="dlwlrma123" revision="r" clone-depth="1" />
+        <project path="packages/apps/Settings" name="packages_apps_Settings_test" remote="dlwlrma123" revision="r" clone-depth="1" />
+        <project path="packages/apps/GamingMode" name="android_packages_apps_GamingMode" remote="wip" revision="11" clone-depth="1" />
 
 </manifest>
