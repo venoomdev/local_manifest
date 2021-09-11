@@ -7,9 +7,6 @@
         <remote  name="wip"
            fetch="https://github.com/Nusantara-ROM" />
         
-        <remote  name="los"
-           fetch="https://github.com/los-modded" />
-        
         <project path="device/xiaomi/surya" name="device_xiaomi_surya" remote="dlwlrma123" revision="main" clone-depth="1" />
         <project path="vendor/xiaomi/surya" name="vendor_xiaomi_surya" remote="dlwlrma123" revision="main" clone-depth="1" />
         <project path="kernel/xiaomi/surya" name="Optimus_Drunk_Surya" remote="dlwlrma123" revision="test" clone-depth="1" />
@@ -20,6 +17,6 @@
         <remove-project name="packages_apps_Settings" />
         <project path="packages/apps/Settings" name="packages_apps_Settings_test" remote="dlwlrma123" revision="r" clone-depth="1" />
         <project path="packages/apps/GamingMode" name="android_packages_apps_GamingMode" remote="wip" revision="11" clone-depth="1" />
-        <project path="packages/apps/ModSettings" name="android_packages_apps_ModSettings" remote="los" revision="lineage-18.1" clone-depth="1" />
+        <project path="packages/apps/ModSettings" name="android_packages_apps_ModSettings_test" remote="dlwlrma123" revision="lineage-18.1" clone-depth="1" />
 
 </manifest>
