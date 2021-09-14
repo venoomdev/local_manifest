@@ -11,5 +11,6 @@
         <project path="vendor/wave" name="vendor_wave_test" remote="dlwlrma123" revision="r" clone-depth="1" />
         <remove-project name="packages_apps_Settings" />
         <project path="packages/apps/Settings" name="packages_apps_Settings_test" remote="dlwlrma123" revision="r" clone-depth="1" />
-        
+        <remove-project name="frameworks_base" />
+        <project path="frameworks/base" name="frameworks_base" remote="dlwlrma123" revision="r" clone-depth="1" />
 </manifest>
