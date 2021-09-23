@@ -14,5 +14,5 @@
         <remove-project name="packages_apps_Settings" />
         <project path="packages/apps/Settings" name="Arcane_packages_apps_Settings" remote="dlwlrma123" revision="R" clone-depth="1" />
         <remove-project name="frameworks_base" />
-        <project path="frameworks/base" name="Arcane_frameworks_base" remote="dlwlrma123" revision="r" clone-depth="1" />
+        <project path="frameworks/base" name="Arcane_frameworks_base" remote="dlwlrma123" revision="R" clone-depth="1" />
 </manifest>
