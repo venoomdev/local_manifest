@@ -6,6 +6,7 @@
         
         <remove-project name="device_custom_sepolicy" />
         <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="dlwlrma123" revision="R" clone-depth="1" />
+        <project path="external/asus/stitchimage" name="external_asus_stitchimage" remote="dlwlrma123" revision="R" clone-depth="1" />
         <remove-project name="vendor_aosp" />
         <project path="vendor/aosp" name="Arcane_vendor" remote="dlwlrma123" revision="R" clone-depth="1" />
         <remove-project name="packages_apps_Settings" />
