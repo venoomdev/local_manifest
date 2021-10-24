@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
-        <remote  name="dlwlrma"
+          
+       <remote name="dlwlrma"
                 fetch="https://github.com/dlwlrma123" />
-        
-        <project path="device/xiaomi/surya" name="device_xiaomi_surya" remote="dlwlrma" revision="main" clone-depth="1" />
-        <project path="vendor/xiaomi/surya" name="vendor_xiaomi_surya" remote="dlwlrma" revision="main" clone-depth="1" />
-        <project path="kernel/xiaomi/surya" name="Optimus_Drunk_Surya" remote="dlwlrma" revision="test" clone-depth="1" />
+                
+       <remote name="ChrisW444"
+                fetch="https://github.com/ChrisW444" />
+                
+       <remote name="LOS"
+          	fetch="https://github.com/LineageOS" />
+          
+        <project path="device/xiaomi/surya" name="android_device_xiaomi_surya" remote="dlwlrma" revision="12" clone-depth="1" />
+        <project path="vendor/xiaomi/surya" name="vendor_xiaomi_surya" remote="ChrisW444" revision="twelve" clone-depth="1" />
+        <project path="kernel/xiaomi/surya" name="android_kernel_xiaomi_surya" remote="dlwlrma" revision="OSS" clone-depth="1" />
+        <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="LOS" revision="lineage-18.1" clone-depth="1" />
 </manifest>
