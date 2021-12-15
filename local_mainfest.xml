@@ -22,7 +22,6 @@
  
  <!-- Replacements -->
   <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="dlwlrma123" revision="lineage-18.1"/>
-  <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="dlwlrma123" revision="lineage-18.1"/>
   
  <!-- Kernels -->
   <project path="kernel/xiaomi/sdm439"         name="android_kernel_xiaomi_sdm439" remote="arcane" revision="inline"  clone-depth="1"/>
