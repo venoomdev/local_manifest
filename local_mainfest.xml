@@ -1,16 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+
           
        <remote name="dlwlrma"
                 fetch="https://github.com/dlwlrma123" />
                 
-	<remote name="kglab" fetch="https://gitlab.com/subhajeetmuhuri" revision="sc" />
-          
-        <project path="device/xiaomi/surya" name="android_device_xiaomi_surya" remote="dlwlrma" revision="S" clone-depth="1" />
-        <project path="vendor/xiaomi/surya" name="proprietary_vendor_xiaomi_surya" remote="dlwlrma" revision="S" clone-depth="1" />
-        <project path="kernel/xiaomi/surya" name="kernel_xiaomi_surya_oss" remote="dlwlrma" revision="inline" clone-depth="1" />
-        <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="dlwlrma" revision="S" clone-depth="1" />
-	  <project name="proprietary_firmware_xiaomi_surya" path="firmware/xiaomi/surya" remote="kglab" />
- 	  <remove-project name="platform/prebuilts/clang/host/linux-x86" />
-	  <project name="android_prebuilts_clang_host_linux-x86" path="prebuilts/clang/host/linux-x86" remote="kglab" clone-depth="1" />
+  <!-- Removed repos -->
+  <remove-project path="hardware/qcom-caf/sm8150/display" name="platform_hardware_qcom_display" />
+  <remove-project path="hardware/qcom-caf/sm8150/media" name="platform_hardware_qcom_media" />
+  <remove-project path="hardware/qcom-caf/sm8150/audio" name="platform_hardware_qcom_audio" />
+  <remove-project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" />
+
+  <!-- Projects -->
+  <project name="xiaomeme-surya/android_hardware_qcom_display" path="hardware/qcom-caf/sm8150/display" remote="github" revision="caf-sm8150" />
+  <project name="xiaomeme-surya/android_hardware_qcom_media" path="hardware/qcom-caf/sm8150/media" remote="github" revision="caf-sm8150" />
+  <project name="xiaomeme-surya/android_hardware_qcom_audio" path="hardware/qcom-caf/sm8150/audio" remote="github" revision="caf-sm8150" />
+
+  <!-- Hardware -->
+  <project name="ArrowOS-Devices/android_hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="arrow-12.0" />
+
+  <!-- Packages -->
+  <project name="xiaomeme-surya/packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="twelve" />
+
+  <!-- Xiaomi Projects -->
+  <project name="android_device_xiaomi_surya_1" path="device/xiaomi/surya" remote="dlwlrma" revision="12.x" />
+  <project name="xiaomeme-surya/android_vendor_xiaomi_surya" path="vendor/xiaomi/surya" remote="github" revision="lineage-19.0" />
+  <project name="xiaomeme-surya/android_kernel_xiaomi_surya" path="kernel/xiaomi/surya" remote="github" revision="lineage-19.0" />
+
 </manifest>
+
