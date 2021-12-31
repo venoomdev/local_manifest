@@ -24,7 +24,7 @@
 
   <!-- Xiaomi Projects -->
   <project name="android_device_xiaomi_surya_1" path="device/xiaomi/surya" remote="dlwlrma" revision="12.x" />
-  <project name="xiaomeme-surya/android_vendor_xiaomi_surya" path="vendor/xiaomi/surya" remote="github" revision="lineage-19.0" />
+  <project name="android_vendor_xiaomi_surya-1" path="vendor/xiaomi/surya" remote="dlwlrma" revision="lineage-19.0" />
   <project name="xiaomeme-surya/android_kernel_xiaomi_surya" path="kernel/xiaomi/surya" remote="github" revision="lineage-19.0" />
 
 </manifest>
