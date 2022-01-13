@@ -16,7 +16,7 @@
  <remove-project name="platform_hardware_qcom_display" />
  <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom_display" remote="Chuck" revision="8.6.2"/>
   <remove-project name="platform_hardware_qcom_audio" />
- <project path="hardware/qcom-caf/msm8996/audio" name="android_hardware_qcom_audio" remote="mi439" revision="lineage-18.1-caf-msm8996" />
+ <project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom_audio" remote="Chuck" revision="8.6.2" />
   <remove-project name="platform_hardware_qcom_media" />
  <project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom_media" remote="Chuck" revision="8.6.2" />
  
@@ -28,10 +28,10 @@
 
  <!-- Device Trees -->
   <project path="device/xiaomi/sdm439-common"  name="android_device_xiaomi_sdm439-common" remote="dlwlrma123" revision="S"/>
-  <project path="device/xiaomi/mi439"         name="android_device_xiaomi_mi439"       remote="dlwlrma123"  revision="S"/>
+  <project path="device/xiaomi/pine"         name="android_device_xiaomi_pine"       remote="dlwlrma123"  revision="S"/>
 
  <!-- Vendor Trees -->
  <project path="vendor/xiaomi/sdm439-common" name="vendor_xiaomi_sdm439-common" remote="dlwlrma123" revision="12.0" />
- <project path="vendor/xiaomi/mi439" name="proprietary_vendor_xiaomi_mi439" remote="mi439" revision="lineage-18.1" />
+ <project path="vendor/xiaomi/pine" name="proprietary_vendor_xiaomi_pine" remote="mi439" revision="lineage-18.1" />
 
 </manifest>
